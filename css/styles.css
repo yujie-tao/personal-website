@@ -43,6 +43,10 @@ footer{
 }
 
 /******Home*************/
+.face{
+  height: 100vh;
+}
+
 .heads{
 	margin-top:50%;
 	margin-bottom:50%;
