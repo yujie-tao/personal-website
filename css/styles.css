@@ -1,13 +1,16 @@
 /******Global Styles*******/
 h1,h2,h3,h4,h5,h6,p,a{
-	font-family: 'Sanchez', serif;
-}
-body{
-	background-color:#FAFBFC;
+	font-family: 'Oswald', sans-serif;
 }
 
-html{
-	background-color:#FAFBFC
+h5{
+  font-family:'Quattrocento', sans-serif;
+  color: #656565;
+  font-size: 16px;
+  line-height: 30px;
+}
+h6{
+  font-family:'Quattrocento Sans', sans-serif;
 }
 
 button.focus{
@@ -21,13 +24,13 @@ button.active{
 button,.btn{
 	background-color: #FAFBFC;
 	border:0px;
-	font-family: 'Sanchez', serif;
+	font-family: 'Oswald', serif;
 	padding:0px;
-	color:#363C4C;
+	color:#191A17;
 	border-radius:0;
 }
 a{
-	color:#363C4C;
+	color:#191A17;
 	font-size: 1.25rem;
 }
 a:hover{
@@ -45,16 +48,42 @@ footer{
 /******Home*************/
 .face{
   height: 100vh;
+  margin-bottom: 30vh;
+}
+.heads{
+  /*margin-top: 35vh;*/
+  /*position: absolute;
+  bottom: 0;*/
+     bottom: 0;
+    position: absolute;
+
 }
 
-.heads{
-	margin-top:50%;
-	margin-bottom:50%;
+/*.heads{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  min-height: 100vh;
+}*/
+h6.headline{
+  color: #FDBB07;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 h1.headline{
-	color:#363C4C;
+	color:#191A17;
 	margin-bottom:0px;
+  text-transform: uppercase;
+  line-height:78px;
+  letter-spacing:6px;
+  font-weight:400;
+  font-size:56px;
 }
 
 h5.tag_des{
@@ -64,6 +93,21 @@ h5.tag_des{
 h5.tagline{
 	margin-bottom:20px;
 }
+
+img.my_img{
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+h6.resume{
+  margin-top:40px;
+  color:#C2C2C2;
+}
+
+/*.col-lg-6{
+  display: inline-block !important;
+}*/
 
 button.category{
 	text-transform: uppercase;
@@ -75,17 +119,20 @@ button.category{
 	font-size:2.5em;
 	cursor: pointer;
 }
+
 button.category.active{
 	color:#363C4C;
 	box-shadow: none;
 	outline:0;
 	text-decoration:underline;
 }
+
 button.category.focus,button.category:focus{
 	color:#363C4C;
 	box-shadow: none;
 	outline:0;
 }
+
 button.category:hover{
 	color:#363C4C;
 }
@@ -727,8 +774,7 @@ i{
 
 .fromTopOut
 {
-	/*transition: transform 1.0s ease, opacity 1.0s ease;*/
-	
+	transition: transform 1.0s ease, opacity 1.0s ease;
 	transform: translate(0,-10px);
 	opacity: 0.0;
 
