@@ -939,12 +939,39 @@ i{
 	opacity: 0.0;
 }
 
+
 /********Media Query*******/
-@media only screen and (max-width: 768px){
-	.proj .row{
-		 height:650px;
-	}
+@media only screen and (max-width: 991px){
+  img.my_img{
+    display: none;
+  }
+
+  .heads{
+    bottom: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    position: unset;
+  }
+
+
+  .proj .row{
+  margin-bottom: 0px;
+  }
+
+  .one{
+    margin-bottom: 50px;
+  }
 }
+
+@media only screen and (max-width: 768px){
+
+}
+
 @media only screen and (max-width: 600px) {
 	h1{
 		font-size:2rem;
@@ -955,9 +982,7 @@ i{
 	button.view, .btn{
 		font-size:1rem;
 	}
-    .proj .row{
-    	height:600px;
-    }
+   
     button.category{
     	margin-bottom: 20px;
     	margin-right: 20px;
