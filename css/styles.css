@@ -1,6 +1,6 @@
 /******Global Styles*******/
 h1,h2,h3,h4,h5,h6,p,a{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
 }
 
 h5{
@@ -20,7 +20,7 @@ p{
   font-family:'Quattrocento Sans', sans-serif;
   color:#656565;
   font-weight: 400;
-  font-size:20px;
+/*  font-size:20px;*/
   margin-top:30px;
 }
 
@@ -35,7 +35,7 @@ button.active{
 button,.btn{
 	background-color: #FAFBFC;
 	border:0px;
-	font-family: 'Oswald', serif;
+	font-family: 'Libre Franklin', serif;
 	padding:0px;
 	color:#191A17;
 	border-radius:0;
@@ -49,8 +49,8 @@ a:hover{
 	text-decoration: none;
 }
 footer{
-	color:#363C4C;
-	font-family: 'Sanchez', serif;
+	color:#191A17;
+	font-family: 'Quattrocento', sans-serif;
 	text-align:center;
 	margin-top:20px;
 	margin-bottom:20px;
@@ -94,15 +94,11 @@ h6.headline{
 h1.headline{
 	color:#191A17;
 	margin-bottom:0px;
-  text-transform: uppercase;
-  line-height:78px;
-  letter-spacing:6px;
-  font-weight:400;
+  /*text-transform: uppercase;*/
+  l/*ine-height:78px;
+  letter-spacing:6px;*/
+  font-weight:300;
   font-size:56px;
-}
-
-h5.tag_des{
-	color:#858D97;
 }
 
 h5.tagline{
@@ -133,9 +129,9 @@ button.category{
 	margin-bottom: 100px;
 	background-color: white;
 	color: #858D97;
-	font-size:50px;
+	font-size:45px;
 	cursor: pointer;
-  letter-spacing: 6px;
+  /*letter-spacing: 6px;*/
   font-weight:400;
 }
 
@@ -181,7 +177,7 @@ img.proj_img{
 	height:300px;
 }*/
 h4.proj_nam{
-  letter-spacing: 2px;
+ /* letter-spacing: 2px;*/
   text-transform: uppercase;
   margin-top: 30px;
 }
@@ -191,20 +187,20 @@ h4.proj_nam{
   font-weight: 700;
 }*/
 h5.proj_intro{
-	color:#858D97;
 	margin-top:20px;
 }
 button.view,.btn{
 	background-color:white;
-    color: #363C4C;
+    color: #191A17;
     border: 1px solid #C2C2C2; 
     padding-top: 20px;
     padding-bottom:20px;
     padding-left:20px;
     padding-right:20px;
     margin-top:20px;
-    font-family:'Oswald', serif;
-    font-size:1.25rem;
+    font-family:'Libre Franklin', 'Helvetica Neue', sans-serif;
+    font-size:1rem;
+    text-transform: uppercase;
 }
 
 button.view.active{
@@ -674,6 +670,8 @@ canvas {
 	/*line-height: 0.7;*/
 	margin-bottom:0px;
   font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 .inshead h5{
 	color:#858D97;
@@ -689,9 +687,9 @@ canvas {
   margin-bottom:0px;
   /*border-bottom: 5px solid #363C4C; */
   text-decoration: underline;
-  letter-spacing: 6px;
+/*  letter-spacing: 6px;*/
   font-weight: 400;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 
 .insert .title h5{
@@ -983,15 +981,22 @@ i{
 		font-size:1rem;
 	}
    
-    button.category{
-    	margin-bottom: 20px;
-    	margin-right: 20px;
+  button.category{
+    	margin-bottom: 40px;
+    	margin-right: 10px;
     	font-size:25px;
+
     }
-    /*canvas{
-    	width: 0;
-    	height: 0;
-    }*/
+  .face {
+    margin-bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width:500px){
+  h1.headline{
+    font-size: 46px;
+  }
+
 }
 
 
