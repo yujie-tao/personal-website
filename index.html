@@ -29,8 +29,8 @@
 		<div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 order-1">
 
 		<div class="heads">
-		<h6 class="headline">Hello, my name is</h6>
-		<h1 class="headline">Yujie Tao <span style="color:#C2C2C2">&</span> <br>I make things that matter</h1>
+		<h6 class="headline slide-in-left">Hello, my name is</h6>
+		<h1 class="headline slide-in-left">Yujie Tao <span style="color:#C2C2C2">&</span> <br>I make things that matter</h1>
 
 		<h5 class="tag_des">I am an undergraduate from UNC-Chapel Hill, marjoring in Computer Science and Advertising. Having a mix of <span style="color:#FDBB07">UI/UX design</span>, <span style="color:#FDBB07">engineering</span> and <span style="color:#FDBB07">marketing</span>, I connect people and solve problem creatively.</h5>
 
@@ -47,11 +47,11 @@
 		</div>
 
 
-<!--     <div class="add-on">
-    	<img src="img/me2.jpg" class="my_img2">
+    <div class="add-on">
+    		<img src="img/me2.jpg" class="my_img2">
     	<h6 class="headline">About me</h6>
-		<h5 class="tag_des2">I am an undergraduate from UNC-Chapel Hill, marjoring in Computer Science and Advertising. Having a mix of <span style="color:#FDBB07">UI/UX design</span>, <span style="color:#FDBB07">engineering</span> and <span style="color:#FDBB07">marketing</span>, I connect people and solve problem creatively.</h5>
-	 </div> -->
+		<h5 class="tag_des2">I am an undergraduate from UNC-Chapel Hill, marjoring in Computer Science and Advertising.Having a mix of <span style="color:#FDBB07">UI/UX design</span>, <span style="color:#FDBB07">engineering</span> and <span style="color:#FDBB07">marketing</span>, I connect people and solve problem creatively.</h5>
+	 </div>
 
 	<div id="categoryContainer">
 	<button class="category active" id="prot" onclick="filterSelection('prototype')">Prototypes</button>
@@ -167,6 +167,12 @@
 <script src="js/connect.js"></script>
 <script src="js/filter.js"></script>
 <script src="js/ScrollTrigger.min.js"></script>
+<script>
+	setTimeout(function(){
+      $('.second').removeClass("fade-in");
+      $('.setence').removeClass("fade-in");
+   }, 3200);
+</script>
 <script>
 window.counter = function() {
 	// this refers to the html element with the data-scroll-showCallback tag
