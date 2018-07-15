@@ -348,6 +348,81 @@ i{
 
 
 /********Media Query*******/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (orientation : landscape) { 
+
+
+  h5{
+    font-size: 17px;
+  }
+  h6.headline{
+    font-size: 14px;
+  }
+
+  h1.headline{
+    font-size: 36px;
+  }
+
+  h5.tag_des{
+    display: none;
+  }
+
+  .add-on{
+    display:inherit;
+    vertical-align: middle;
+    margin-bottom:60px;
+    height: 70vh;
+  }
+  .add-on h6{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+ .add-on img{
+    width: 35%;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 30px;
+  }
+
+  .insert h1{
+    margin-top:40px;
+  }
+
+  .fab{
+  font-size: 1.4rem;
+  }
+
+  .categoryContainer{
+    text-align: center;
+  }
+
+  .one{
+    margin-bottom: 60px;
+  }
+
+  .slide-in-left {
+  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   }
+
+ /* .add-on{
+    height: 100vh;
+  }
+
+  #categoryContainer{
+    text-align: center;
+  }
+  button.category{
+    margin-bottom:60px;
+  }
+*/
+}
+
 @media only screen and (max-width: 1200px){
     h1.headline{
       font-size: 46px;
@@ -414,77 +489,12 @@ i{
 
     }
   .face {
-    margin-bottom: 10vh;
+    margin-bottom: 0;
   }
   .categoryContainer{
     text-align: center;
   }
 }
-
-/*@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
-
-  h5{
-    font-size: 17px;
-  }
-  h6.headline{
-    font-size: 14px;
-  }
-
-  h1.headline{
-    font-size: 36px;
-  }
-
-  h5.tag_des{
-    display: none;
-  }
-
-  .add-on{
-    display:inherit;
-    vertical-align: middle;
-    margin-bottom:60px;
-    height: 70vh;
-  }
-  .add-on h6{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-
- .add-on img{
-    width: 35%;
-    border-radius: 50%;
-    display: block;
-    margin:auto;
-    margin-bottom: 30px;
-  }
-
-  .insert h1{
-    margin-top:40px;
-  }
-
-  .fab{
-  font-size: 1.4rem;
-  }
-
-  .categoryContainer{
-    text-align: center;
-  }
-
-  .one{
-    margin-bottom: 60px;
-  }
-
-  .slide-in-left {
-  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-
-}*/
-
-
 
 @media only screen and (max-width:500px){
   h5{
@@ -505,7 +515,6 @@ and (-webkit-device-pixel-ratio : 3) {
   .add-on{
     display:inherit;
     vertical-align: middle;
-
     margin-bottom:60px;
     height: 70vh;
   }
@@ -548,6 +557,126 @@ and (-webkit-device-pixel-ratio : 3) {
 
 }
 
+@media only screen and (max-height: 664px){
+  /*img.my_img{
+    bottom: auto;
+  }*/
+}
+
+@media only screen and (max-height: 564px){
+
+  img.my_img{
+    display: none;
+  }
+  .heads{
+    bottom: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    position: unset;
+  }
+
+  .col-lg-6.col-md-8.order-2{
+    display: none;
+  }
+
+  .col-lg-6.offset-lg-0.col-md-10.offset-md-1.order-1{
+    margin:auto;
+  }
+
+  h5{
+    font-size: 17px;
+  }
+  h6.headline{
+    font-size: 14px;
+  }
+
+  h1.headline{
+    font-size: 36px;
+  }
+
+  h5.tag_des{
+    display: none;
+  }
+
+  .add-on{
+    display:inherit;
+    vertical-align: middle;
+    margin-bottom:60px;
+    height: 100vh;
+  }
+
+  .add-on h6{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .add-on h5{
+    text-align: center;
+/*    width: 50%;*/
+    margin: auto;
+  }
+
+ .add-on img{
+    width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 30px;
+  }
+
+  .insert h1{
+    margin-top:40px;
+  }
+
+  .fab{
+  font-size: 1.4rem;
+  }
+
+  #categoryContainer{
+    text-align: center;
+  }
+
+  .one{
+    margin-bottom: 60px;
+  }
+
+  .slide-in-left {
+  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   }
+
+}
+@media only screen and (max-height: 450px){
+   .add-on{
+    height: auto;
+   }
+  /* .add-on img{
+    width: 15%;
+   }*/
+   #categoryContainer{
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-height: 326px) and (max-width:500px){
+   h1.headline{
+    font-size: 26px;
+   }
+  .face {
+    margin-bottom: 20vh;
+  }
+}
+
+@media only screen and (max-height: 1024px){
+
+}
+
 /***iPad Pro in protrait***/
 @media only screen 
 and (min-device-width : 1024px) 
@@ -566,30 +695,11 @@ img.my_img{
  }
 }
 
-/*@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
 
-.heads{
-  margin-bottom: 30vh;
-}
-img.my_img{
-  margin-bottom: 30vh;
- }
-
- .face{
-  margin-bottom: 0px;
- }
-}
-*/
-
-/***iPhoneX landscape***/
-
+/****For mobile landscape generic***/
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
 
 
@@ -612,7 +722,7 @@ and (orientation : landscape) {
     display:inherit;
     vertical-align: middle;
     margin-bottom:60px;
-    height: 70vh;
+    height: 100vh;
   }
   .add-on h6{
     text-align: center;
@@ -649,13 +759,19 @@ and (orientation : landscape) {
           animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
 
-  .add-on{
-    height: 100vh;
+   #categoryContainer{
+    text-align: center;
+    }
   }
 
-  #categoryContainer{
-    text-align: center;
-  }
+/***iPhoneX landscape***/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+
   button.category{
     margin-bottom:60px;
   }
@@ -668,63 +784,6 @@ and (orientation : landscape) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) {
-
-   h5{
-    font-size: 17px;
-  }
-  h6.headline{
-    font-size: 14px;
-  }
-
-  h1.headline{
-    font-size: 36px;
-  }
-
-  h5.tag_des{
-    display: none;
-  }
-
-  .add-on{
-    display:inherit;
-    vertical-align: middle;
-    margin-bottom:60px;
-    height: 100vh;
-  }
-  .add-on h6{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-
- .add-on img{
-    width: 35%;
-    border-radius: 50%;
-    display: block;
-    margin:auto;
-    margin-bottom: 30px;
-  }
-
-  .insert h1{
-    margin-top:40px;
-  }
-
-  .fab{
-  font-size: 1.4rem;
-  }
-
-  .categoryContainer{
-    text-align: center;
-    margin-top:60px;
-  }
-
-  .one{
-    margin-bottom: 60px;
-  }
-
-  .slide-in-left {
-  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
 
   button.category{
     margin-bottom:40px;
@@ -739,63 +798,6 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (orientation : landscape) {
 
-   h5{
-    font-size: 17px;
-  }
-  h6.headline{
-    font-size: 14px;
-  }
-
-  h1.headline{
-    font-size: 36px;
-  }
-
-  h5.tag_des{
-    display: none;
-  }
-
-  .add-on{
-    display:inherit;
-    vertical-align: middle;
-    margin-bottom:60px;
-    height: 100vh;
-  }
-  .add-on h6{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-
- .add-on img{
-    width: 35%;
-    border-radius: 50%;
-    display: block;
-    margin:auto;
-    margin-bottom: 30px;
-  }
-
-  .insert h1{
-    margin-top:40px;
-  }
-
-  .fab{
-  font-size: 1.4rem;
-  }
-
-  .categoryContainer{
-    text-align: center;
-    margin-top:80px;
-  }
-
-  .one{
-    margin-bottom: 60px;
-  }
-
-  .slide-in-left {
-  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-
   .add-on h5{
     text-align: center;
   }
@@ -808,66 +810,17 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
 
-  h5{
-    font-size: 17px;
+  .add-on img{
+    width: 25%;
   }
-  h6.headline{
-    font-size: 14px;
-  }
-
-  h1.headline{
-    font-size: 36px;
+  .add-on h5{
+    width: 80%;
+    margin: auto;
   }
 
-  h5.tag_des{
-    display: none;
-  }
-
-  h6.resume{
-    margin-top: 20px;
-  }
-
-  .add-on{
-    display:inherit;
-    vertical-align: middle;
-    margin-bottom:60px;
-    height: 100vh;
-  }
-  .add-on h6{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-
- .add-on img{
-    width: 35%;
-    border-radius: 50%;
-    display: block;
-    margin:auto;
-    margin-bottom: 30px;
-  }
-
-  .insert h1{
+  button.category{
     margin-top:40px;
   }
-
-  .fab{
-  font-size: 1.4rem;
-  }
-
-  .categoryContainer{
-    text-align: center;
-    margin-top:100px;
-  }
-
-  .one{
-    margin-bottom: 60px;
-  }
-
-  .slide-in-left {
-  -webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
 
 }
 
