@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126479308-1"></script>
+	<script>
+	 	window.dataLayer = window.dataLayer || [];
+	 	function gtag(){dataLayer.push(arguments);}
+	 	gtag('js', new Date());
+		gtag('config', 'UA-126479308-1');
+	</script>
+
 	<title>Yujie Tao</title>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +25,6 @@
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-
-<!-- 	<canvas class='connecting-dots'></canvas> -->
-
- <!-- data-scroll="toggle(.fromTopIn, .fromTopOut)" -->
-
 
 
 <div class="col-lg-8 offset-lg-2 col-centered col-md-8 offset-md-2 col-sm-8 offset-sm-2">
@@ -127,7 +131,6 @@
 			</div>		
 			<a href="prototype/poweringanation.html" class="btn btn-info" role="button">View Project</a>
 		</div>
-		<!-- </div> -->
 
 </div>
 </div>
@@ -170,22 +173,18 @@
 </div>
 
 
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
-<!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
 
-<!-- <script src="js/connect.js"></script> -->
 <script src="js/filter.js"></script>
-<!-- <script src="js/ScrollTrigger.min.js"></script> -->
+
 <script>
 	setTimeout(function(){
       $('.second').removeClass("fade-in");
       $('.setence').removeClass("fade-in");
    }, 3200);
 </script>
+
 <script>
 window.counter = function() {
 	// this refers to the html element with the data-scroll-showCallback tag
@@ -201,6 +200,7 @@ document.addEventListener('DOMContentLoaded', function(){
   });
 });
 </script>
+
 <script>
 	$(document).ready(
     function(){
@@ -208,23 +208,21 @@ document.addEventListener('DOMContentLoaded', function(){
     	    $('.campaign').hide();
             $('.campaign').fadeIn(1000);
         });
-//     $('.port').on('click', function() { 
-//     $('.prototype').fadeIn(1000);
-// });
+
 
     $('#prot').on('click', function(){
     	$('.prototype').hide();
             $('.prototype').fadeIn(1000);
         });
 
-
-    // );
     });
 </script>
-  <script>
+
+<script>
       AOS.init({
         easing: 'ease-in-out-sine'
       });
-    </script>
+</script>
+
 </body>
 </html>
