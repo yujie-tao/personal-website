@@ -1,0 +1,78 @@
+h1{
+	font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
+}
+
+h5{
+	font-family:'Quattrocento', serif;
+	color: #656565;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+button.view,.btn{
+	background-color:white;
+	color: #191A17;
+	border: 1px solid #C2C2C2; 
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:20px;
+	font-family:'Libre Franklin', 'Helvetica Neue', sans-serif;
+	font-size:1rem;
+	text-transform: uppercase;
+}
+
+.btn-info.focus, .btn-info:focus{
+	outline:0;
+	box-shadow:none;
+	background-color:rgba(253, 187, 7, .06);
+	color: #363C4C;
+	border: 1px solid #FDBB07; 
+}
+
+.btn.focus, .btn:focus{
+	box-shadow:none;
+}
+
+.btn-info.active{
+	outline:0;
+	box-shadow:none;
+	background-color:rgba(253, 187, 7, .06);
+	color: #363C4C;
+	border: 1px solid #FDBB07; 
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle{
+	outline:0;
+	box-shadow:none;
+	background-color:rgba(253, 187, 7, .06);
+	color: #363C4C;
+	border: 1px solid #FDBB07; 
+}
+
+.btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle.focus{
+	outline:0;
+	box-shadow:none;
+	background-color:rgba(253, 187, 7, .06);
+}
+
+.oops{
+	margin:auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.oops .btn.btn-info{
+	border-color: #FDBB07;
+}
+
+.oops .btn.btn-info:hover{
+	background-color: rgba(253, 187, 7, .06);
+	color: #363C4C;
+}
