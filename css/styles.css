@@ -70,7 +70,6 @@ footer{
 .heads{
     bottom: 0;
     position: absolute;
-
 }
 
 h6.headline{
@@ -239,6 +238,11 @@ button.view,.btn{
 	background-color:rgba(25, 26, 23, .04);
 }
 
+/*.offset-lg-0 {
+    padding: 20px;
+  }*/
+
+
 
 
 /********Insert Page********/
@@ -375,7 +379,6 @@ i{
     min-height: 100vh;
     position: unset;
   }
-
 
   .proj .row{
   margin-bottom: 0px;
