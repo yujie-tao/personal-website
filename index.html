@@ -177,57 +177,5 @@
 
 </div>
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-
-<script src="js/filter.js"></script>
-
-<script>
-	setTimeout(function(){
-      $('.second').removeClass("fade-in");
-      $('.setence').removeClass("fade-in");
-   }, 3200);
-</script>
-
-<script>
-window.counter = function() {
-	// this refers to the html element with the data-scroll-showCallback tag
-	var span = this.querySelector('span');
-	var current = parseInt(span.textContent);
-
-	span.textContent = current + 1;
-};
-
-document.addEventListener('DOMContentLoaded', function(){
-  var trigger = new ScrollTrigger({
-	  addHeight: true
-  });
-});
-</script>
-
-<script>
-	$(document).ready(
-    function(){
-    $('#camp').on('click', function(){
-    	    $('.campaign').hide();
-            $('.campaign').fadeIn(1000);
-        });
-
-
-    $('#prot').on('click', function(){
-    	$('.prototype').hide();
-            $('.prototype').fadeIn(1000);
-        });
-
-    });
-</script>
-
-<script>
-      AOS.init({
-        easing: 'ease-in-out-sine'
-      });
-</script>
-
 </body>
 </html>
