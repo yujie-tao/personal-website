@@ -14,8 +14,8 @@ window.counter = function() {
 $(document).ready(
 	function(){
 	$('#camp').on('click', function(){
-			$('.campaign').hide();
-			$('.campaign').fadeIn(1000);
+			$('.analysis').hide();
+			$('.analysis').fadeIn(1000);
 		});
 
 
