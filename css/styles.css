@@ -1,16 +1,21 @@
-/******Global Styles*******/
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
 h1,h2,h3,h4,h5,h6,p,a{
 	font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
 }
+
 h4{
   font-weight: 400;
 }
+
 h5{
   font-family:'Quattrocento', serif;
   color: #656565;
   font-size: 16px;
   line-height: 30px;
 }
+
 h6{
   font-family:'Quattrocento Sans', sans-serif;
   color:#C2C2C2;
@@ -30,10 +35,12 @@ button.focus{
 	outline:none;
 	box-shadow:none;
 }
+
 button.active{
 	outline:none;
 	box-shadow:none;
 }
+
 button,.btn{
 	background-color: #FAFBFC;
 	border:0px;
@@ -42,14 +49,17 @@ button,.btn{
 	color:#191A17;
 	border-radius:0;
 }
+
 a{
 	color:#191A17;
 	font-size: 1rem;
 }
+
 a:hover{
 	color:#363C4C;
 	text-decoration: none;
 }
+
 footer{
 	color:#191A17;
 	font-family: 'Quattrocento', serif;
@@ -57,12 +67,10 @@ footer{
 	margin-top:20px;
 	margin-bottom:20px;
 }
-/*.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
-  padding-left: 0px;
-  padding-right:0px;
-}*/
 
-/******Home*************/
+/* ==========================================================================
+   Home Page
+   ========================================================================== */
 .face{
   height: 100vh;
   margin-bottom: 30vh;
@@ -102,6 +110,7 @@ img.my_img{
   position: absolute;
   bottom: 0;
 }
+
 h6.resume{
   margin-top:40px;
   color:#C2C2C2;
@@ -238,14 +247,16 @@ button.view,.btn{
 	background-color:rgba(25, 26, 23, .04);
 }
 
-/*.offset-lg-0 {
-    padding: 20px;
-  }*/
+.one{
+  margin-bottom: 50px;
+}
 
 
 
 
-/********Insert Page********/
+/* ==========================================================================
+  Insert Page
+   ========================================================================== */
 .inshead{
 	margin-top:20px;
 	text-align:center;
@@ -347,7 +358,9 @@ i{
 
 
 
-/********Media Query*******/
+/* ==========================================================================
+  Media Query
+   ========================================================================== */
 @media only screen and (min-width: 1700px){
   .heads{
     width: 80%;
@@ -363,6 +376,7 @@ i{
      font-size: 35px;
     }
   }
+
 @media only screen and (max-width: 991px){
   img.my_img{
     display: none;
@@ -583,12 +597,11 @@ i{
 
 }
 @media only screen and (max-height: 450px){
+  
    .add-on{
     height: auto;
    }
-  /* .add-on img{
-    width: 15%;
-   }*/
+
    #categoryContainer{
     text-align: center;
     margin-top: 100px;
@@ -596,9 +609,11 @@ i{
 }
 
 @media only screen and (max-height: 326px) and (max-width:500px){
+   
    h1.headline{
     font-size: 26px;
    }
+
   .face {
     margin-bottom: 20vh;
   }
@@ -614,16 +629,18 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px) 
 and (orientation : portrait) {
 
-.heads{
-  margin-bottom: 30vh;
-}
-img.my_img{
-  margin-bottom: 30vh;
- }
+  .heads{
+    margin-bottom: 30vh;
+  }
 
- .face{
-  margin-bottom: 0px;
- }
+  img.my_img{
+    margin-bottom: 30vh;
+   }
+
+   .face{
+    margin-bottom: 0px;
+   }
+
 }
 
 
@@ -633,20 +650,21 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (orientation : landscape) { 
 
-
-  h5{
-    font-size: 17px;
-  }
-  h6.headline{
-    font-size: 14px;
-  }
-
   h1.headline{
     font-size: 36px;
   }
 
-  h5.tag_des{
+  h5{
+    font-size: 17px;
+  }
+
+   h5.tag_des{
     display: none;
+  }
+
+
+  h6.headline{
+    font-size: 14px;
   }
 
   .add-on{
@@ -744,6 +762,7 @@ and (orientation : landscape) {
   .add-on img{
     width: 25%;
   }
+
   .add-on h5{
     width: 80%;
     margin: auto;
