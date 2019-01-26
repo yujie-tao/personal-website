@@ -162,6 +162,10 @@ a.arrow:hover{
 	color:#191A17;
 }
 
+.proj{
+  padding: 0px;
+}
+
 .proj .row{
 	height: auto;
   margin-bottom: 50px;
