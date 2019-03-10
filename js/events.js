@@ -24,6 +24,11 @@ $(document).ready(
 			$('.prototype').fadeIn(1000);
 		});
 
+	$('#art').on('click', function(){
+			$('.blog').hide();
+			$('.blog').fadeIn(1000);
+		});
+
 	});
 
 AOS.init({
