@@ -25,7 +25,7 @@ h6{
 
 p{
   font-family:'Quattrocento', serif;
-  color:#656565;
+  color:#433d3d;
   font-weight: 400;
   font-size:18px;
   margin-top:30px;
@@ -300,7 +300,7 @@ button.view,.btn{
 
 .content li{
   font-family: 'Quattrocento', serif;
-  color:#656565;
+  color:#433d3d;
   font-weight: 400;
   font-size: 18px;
 }
@@ -321,6 +321,17 @@ i{
 .slide-in-left {
   -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.insert.blog h4{
+  font-size: 1.3rem;
+}
+
+.insert.blog a{
+  color: #656565;
+  text-decoration: underline;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 /* ----------------------------------------------
