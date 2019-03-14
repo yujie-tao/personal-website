@@ -14,20 +14,41 @@ window.counter = function() {
 $(document).ready(
 	function(){
 	$('#camp').on('click', function(){
-			$('.analysis').hide();
-			$('.analysis').fadeIn(1000);
-		});
+		$('.analysis').hide();
+		$('.analysis').fadeIn(1000);
+	});
 
 
 	$('#prot').on('click', function(){
 		$('.prototype').hide();
-			$('.prototype').fadeIn(1000);
-		});
+		$('.prototype').fadeIn(1000);
+	});
 
 	$('#art').on('click', function(){
-			$('.blog').hide();
-			$('.blog').fadeIn(1000);
-		});
+		$('.blog').hide();
+		$('.blog').fadeIn(1000);
+	});
+
+	$('#inshead').click(function(){
+	 if(document.getElementsByClassName('blog') && document.getElementsByClassName('insert')){
+	 	 	window.history.back(); 
+	 	    setTimeout(function(){filterSelection("blog");console.log('hello')}, 5000);
+			// window.location.href='../index.html';
+			// var oldURL = document.referrer;
+			// alert(oldURL);
+		}
+	});
+
+	//  
+
+	// $('#inshead').on('click', function(){
+	// 	console.log('hello')
+	// 	if(document.getElementsByClassName('blog') && document.getElementsByClassName('insert')){
+	// 		window.location.href='index.html';
+	// 		filterSelection("blog")
+
+	// 	}
+	// })
 
 	});
 
