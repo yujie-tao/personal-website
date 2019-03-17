@@ -1,4 +1,8 @@
 filterSelection("prototype")
+console.log(document.referrer)
+if ((document.referrer).search("blog") != -1){
+  $('#art').click();
+}
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");

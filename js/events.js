@@ -31,11 +31,7 @@ $(document).ready(
 
 	$('#inshead').click(function(){
 	 if(document.getElementsByClassName('blog') && document.getElementsByClassName('insert')){
-	 	 	window.history.back(); 
-	 	    setTimeout(function(){filterSelection("blog");console.log('hello')}, 5000);
-			// window.location.href='../index.html';
-			// var oldURL = document.referrer;
-			// alert(oldURL);
+	 	// window.location = document.referrer;
 		}
 	});
 

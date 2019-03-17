@@ -154,12 +154,16 @@ button.category:hover{
 .arrow{
 	display: inline-block;
   font-family: 'Quattrocento',serif;
-  color:#FDBB07;
+  color: #FDBB07;
   font-size: 18px;
 }
 
 a.arrow:hover{
 	color:#191A17;
+}
+
+.arrow.next{
+  float: right;
 }
 
 .proj{
@@ -336,6 +340,17 @@ i{
 
 .insert img{
   width: 100%;
+}
+
+.arrow.last, .arrow.next, .arrow.last i, .arrow.next i{
+  margin-top: 20px;
+  color: #191A17;
+  text-decoration: none;
+}
+
+
+a.arrow.last:hover, a.arrow.last:hover > i, a.arrow.next:hover, a.arrow.next:hover > i{
+  color: #FDBB07;
 }
 
 /* ----------------------------------------------
