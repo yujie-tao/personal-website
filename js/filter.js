@@ -6,7 +6,7 @@ $(document).ready(function(){
     setTimeout(function(){
        if ((document.referrer).search("blog") != -1){
           $('#art').click();
-          filterSelection("blog");
+          console.log('hello')
         }
     },1);
 

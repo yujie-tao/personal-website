@@ -347,7 +347,7 @@ i{
 }
 
 .arrow.last, .arrow.next, .arrow.last i, .arrow.next i{
-  color: #191A17;
+  color: #FDBB07;
   text-decoration: none;
 }
 
@@ -355,11 +355,12 @@ a.arrow.last, a.arrow.next{
   text-decoration: none;
   font-family: 'Quattrocento',serif;
   font-size: 18px;
+  color: #FDBB07;
 }
 
 
 a.arrow.last:hover, a.arrow.last:hover > i, a.arrow.next:hover, a.arrow.next:hover > i{
-  color: #FDBB07;
+  color: #191A17;
 }
 
 /* ----------------------------------------------

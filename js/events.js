@@ -20,6 +20,7 @@ $(document).ready(
 
 
 	$('#prot').on('click', function(){
+		$('.blog').hide();
 		$('.prototype').hide();
 		$('.prototype').fadeIn(1000);
 	});
@@ -28,25 +29,7 @@ $(document).ready(
 		$('.blog').hide();
 		$('.blog').fadeIn(1000);
 	});
-
-	$('#inshead').click(function(){
-	 if(document.getElementsByClassName('blog') && document.getElementsByClassName('insert')){
-	 	// window.location = document.referrer;
-		}
-	});
-
-	//  
-
-	// $('#inshead').on('click', function(){
-	// 	console.log('hello')
-	// 	if(document.getElementsByClassName('blog') && document.getElementsByClassName('insert')){
-	// 		window.location.href='index.html';
-	// 		filterSelection("blog")
-
-	// 	}
-	// })
-
-	});
+});
 
 AOS.init({
 		easing: 'ease-in-out-sine'
