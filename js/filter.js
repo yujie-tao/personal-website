@@ -1,8 +1,18 @@
 filterSelection("prototype")
 console.log(document.referrer)
-if ((document.referrer).search("blog") != -1){
-  $('#art').click();
-}
+
+$(document).ready(function(){
+
+    setTimeout(function(){
+       if ((document.referrer).search("blog") != -1){
+          $('#art').click();
+          filterSelection("blog");
+        }
+    },1);
+
+});
+
+
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");

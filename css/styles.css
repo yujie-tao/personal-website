@@ -342,10 +342,19 @@ i{
   width: 100%;
 }
 
+.content{
+  margin-bottom: 40px;
+}
+
 .arrow.last, .arrow.next, .arrow.last i, .arrow.next i{
-  margin-top: 20px;
   color: #191A17;
   text-decoration: none;
+}
+
+a.arrow.last, a.arrow.next{
+  text-decoration: none;
+  font-family: 'Quattrocento',serif;
+  font-size: 18px;
 }
 
 
