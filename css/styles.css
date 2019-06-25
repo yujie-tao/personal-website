@@ -6,11 +6,14 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 h4{
-  font-weight: 400;
+  font-family:'Quattrocento Sans', serif;
+  color: #656565;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 h5{
-  font-family:'Quattrocento', serif;
+  font-family:'Quattrocento Sans', serif;
   color: #656565;
   font-size: 16px;
   line-height: 30px;
@@ -24,7 +27,7 @@ h6{
 }
 
 p{
-  font-family:'Quattrocento', serif;
+  font-family:'Quattrocento Sans', serif;
   color:#433d3d;
   font-weight: 400;
   font-size:18px;
@@ -71,6 +74,44 @@ footer{
 /* ==========================================================================
    Home Page
    ========================================================================== */
+
+.taglineBox{
+  text-align: center;
+}
+
+.homeImg{
+  max-width: 100%;
+}
+
+.introBox{
+  background-color: #FDBB07;
+  top: -70px;
+  z-index: -1;
+  position: relative;
+  padding-bottom: 10%;
+  padding-top: 6%;
+}
+
+.introCon{
+  top: 70px;
+}
+
+.introTitle{
+  text-align: center;
+}
+
+.introCon h2{
+  color: white;
+}
+
+.introCon h4{
+  color: #212529;
+}
+
+
+
+
+/***old***/
 .face{
   height: 100vh;
   margin-bottom: 30vh;
@@ -79,6 +120,7 @@ footer{
     bottom: 0;
     position: absolute;
 }
+
 
 h6.headline{
   color: #FDBB07;
