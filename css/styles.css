@@ -1,8 +1,19 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
-h1,h2,h3,h4,h5,h6,p,a{
-	font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
+h1{
+  font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
+  font-size: 46px;
+}
+
+h2{
+  font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 400;
 }
 
 h4{
@@ -14,16 +25,18 @@ h4{
 
 h5{
   font-family:'Quattrocento Sans', serif;
-  color: #656565;
-  font-size: 16px;
-  line-height: 30px;
+  color: #C2C2C2;
+  font-size: 20px;
+ /* line-height: 30px;*/
+  text-transform: uppercase;
 }
 
 h6{
   font-family:'Quattrocento Sans', sans-serif;
   color:#C2C2C2;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 p{
@@ -63,12 +76,32 @@ a:hover{
 	text-decoration: none;
 }
 
+
 footer{
 	color:#191A17;
 	font-family: 'Quattrocento', serif;
 	text-align:center;
 	margin-top:20px;
 	margin-bottom:20px;
+}
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+
+.nav-item.active a h5{
+  color: #FDBB07;
+}
+
+.navbar-nav li{
+  margin-left: 30px;
+}
+
+.navbar.navbar-expand-lg.navbar-light{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* ==========================================================================
@@ -98,9 +131,10 @@ footer{
 
 .introTitle{
   text-align: center;
+  color: white;
 }
 
-.introCon h2{
+.introCon h1{
   color: white;
 }
 
@@ -124,11 +158,12 @@ footer{
 
 h6.headline{
   color: #FDBB07;
-  font-size: 12px;
+/*  font-size: 12px;*/
   line-height: 18px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h6.skills{
@@ -222,12 +257,12 @@ img.proj_img{
 	height: auto;
 }
 
-h4.proj_nam{
+h3.proj_nam{
 /*  text-transform: uppercase;*/
   margin-top: 30px;
 }
 
-h5.proj_intro{
+p.proj_intro{
 	margin-top:20px;
 }
 
