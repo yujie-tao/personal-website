@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-    <title>Yujie Tao</title>
+    <title>2019 Pearl Hacks-Yujie Tao</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,20 +13,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
+    <!-- <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
 
-
-    <!-- <script src="js/filter.js"></script>
-    <script src="js/events.js"></script> -->
-<!--    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
     <script>
 
         $(document).ready(function() {
-            // $("head").load("/partials/header.html");
+            $("head").load("../partials/header.html");
             $("footer").load("/partials/footer.html");
+            $(".inshead").load("/partials/inshead.html");
         });
 
     </script> -->
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126479308-1"></script>
     <script>
@@ -35,50 +38,57 @@
         gtag('js', new Date());
         gtag('config', 'UA-126479308-1');
     </script>
-
 </head>
+
 <body>
-
     <div class="col-lg-10 offset-lg-1 col-centered col-md-8 offset-md-2 col-sm-8 offset-sm-2">
-
         <nav class="navbar navbar-expand-lg navbar-light">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html"><h5>About</h5></a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./index.html"><h5>About</h5></a>
+                <a class="nav-link" href="../projects.html"><h5>Projects</h5></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./projects.html"><h5>Projects</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blogs.html"><h5>Blogs</h5></a>
+                <a class="nav-link" href="../blogs.html"><h5>Blogs</h5></a>
               </li>
             </ul>
           </div>
         </nav>
-
-        <div class="taglineBox">
-            <h1>Thinking across boundaries,</br>I create  new things.</h1>
-            <h6 class="headline slide-in-left">Hello, I am Yujie Tao</h6>
-        </div>
-        <img class="homeImg " src="./img/home.png">
     </div>
-
-    <div class="introBox">
-        <div class="introCon col-lg-6 offset-lg-3">
-            <h2 class="introTitle">About</h2>
-            <p>I am an undergraduate student at the University of North Carolina at Chapel Hill, majoring in Computer Science and Advertising. With the tags of "life experiencer" and "meaning searcher". I believe in breadth and intersactionality, where I connect people and solve problem creatively.
-            </br></br>
-            My experience spans across design, engineering and marketing and all integrates into the word "product". Pursuing career in product management, I aspire to create products that touch people’s lives.</p>
-       </div>
-    </div>
+    <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-centered col-sm-8 offset-sm-2">
         
-       
+        <div class="insert">
+            <div class="title">
+                <h2>Bedside Pharmacy App</h2>
+            </div>
+            <a href="http://drugreference.web.unc.edu/" target="blank">
+                <img src="../img/cover_pharmacy.png" class="proj_img">
+            </a>
+            <div class="content">
+                <p>
+                    The goal of this product is to create a drug reference mobile app targeted at ICU physicians.
+                    </br></br>
 
+                    The Surgical Intensive Care Unit (SICU) is where physicians are required to make immediate life-saving decisions. There are thousands of medications administered on a daily basis in the SICU. Knowing certain symptoms is only one part of deciding to give a patient a certain medication; giving care to a patient requires a team of doctors, nurses, pharmacists, therapists, and technicians. While major hospitals are able to provide elite levels of care because of proficient resources, drug reference is still a problem that hasn’t been tackled.
+                    </br></br>
+                    Parterning with  UNC Bedside Pocket SICU Pharmacy, we built this mobile app for doctors to quickly refer to drugs in acute situations. I was in charge of front-end development and project management.
+                   
+                </p>
+
+                </br>
+                <a class="arrow" target="blank" href="http://drugreference.web.unc.edu/" class="arrow">Click to View Project Website</a>
+            </div>
+
+            <a class="arrow next" href="../prototype/pearlhacks.html">Next project<i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+    
     <footer>&#64;2019 Yujie Tao</footer>
 
     <script
@@ -91,9 +101,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-    <script src="js/filter.js"></script>
-    <script src="js/events.js"></script>
-
+    
 </body>
 </html>
