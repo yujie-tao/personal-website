@@ -24,7 +24,7 @@ h4{
 }
 
 h5{
-  font-family:'Quattrocento Sans', serif;
+  font-family:'Quattrocento Sans', sans-serif;
   color: #C2C2C2;
   font-size: 20px;
  /* line-height: 30px;*/
@@ -40,7 +40,7 @@ h6{
 }
 
 p{
-  font-family:'Quattrocento Sans', serif;
+  font-family:'Quattrocento Sans', sans-serif;
   color:#201B17 ;
   font-weight: 400;
   font-size:18px;
@@ -79,10 +79,13 @@ a:hover{
 
 footer{
 	color:#191A17;
-	font-family: 'Quattrocento', serif;
-	text-align:center;
-	margin-top:20px;
+	font-family: 'Quattrocento Sans', sans-serif;
 	margin-bottom:20px;
+  text-align: center;
+}
+
+i{
+  color: white;
 }
 
 
@@ -146,6 +149,15 @@ footer{
 .cat_title{
   text-align: center;
   margin-bottom: 70px;
+}
+
+.medias{
+  text-align: center;
+}
+
+.medias a i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 
@@ -392,7 +404,7 @@ button.view,.btn{
   font-size: 18px;
 }
 
-i{
+.arrow.last, .arrow.next, .arrow.last i, .arrow.next i{
   margin-left: 10px;
 	color:#FDBB07;
 }
