@@ -1,6 +1,6 @@
 title: Yujie Tao
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+url: "https://yujietao.me"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,8 +17,8 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
- - name: "CV"
-   link: "Yujie_Tao_CV.pdf"
- - name: "Contact"
-   link: "contact"
+   link: "/"
+ # - name: "CV"
+ #   link: "Yujie_Tao_CV.pdf"
+ - name: "Blog"
+   link: "bog"
