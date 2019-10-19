@@ -9,11 +9,13 @@ layout: default
 Hi! I am a senior year student of B.S. Computer Science and B.A. Media and Journalism at the University of North Carolina at Chapel Hill.
 
 
-I am currently an undergraduate research assistant at [UNC Graphics and Virtual Reality Group](http://telepresence.web.unc.edu), advised by Professor [Henry Fuchs](http://henryfuchs.web.unc.edu). I didn't fully started my research journey until my senior year. Before diving into academic research, I had experience in working in both product management and advertising.
+I am currently an undergraduate research assistant at [UNC Graphics and Virtual Reality Group](http://telepresence.web.unc.edu), advised by Professor [Henry Fuchs](http://henryfuchs.web.unc.edu). I didn't fully started my research journey until my senior year. Before diving into academic research, I had experience working in both product management and advertising.
+
+[CV]() / [Email]() / [Github]()
 
 ## Research Interest
 
-My research interest is in Human-Computer Interaction, specifically in ubiquitous computing. I am interested in new modalities of interaction between human and machine, as well as emerging interfaces.
+My research interest is in Human-Computer Interaction, specifically in ubiquitous computing. I am passionate about new modalities of interaction between human and machines, as well as emerging interfaces.
 
 <!-- ### Research projects -->
 
@@ -40,7 +42,28 @@ Here is a blockquote
 
 > To a great mind, nothing is little
 
-## Prior to Resaerch Experience
 
-* Program Manager Intern, Microsoft, M365 Security
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+## Prior to Resaerch
+
+All past experience contribute to who I am today. Both product management and advertising have cultivated me a strong awareness of design, people and computing. 
+
+**Product** (2017~2019)
+
+*Internship*
+
+* **Program Manager Intern**, Microsoft, M365 Security. Mentored by Art Sadovsky and Kevin Lo.
+
+* **Program Manager Intern**, Microsoft, Bing News. Mentored by Chen Liao.
+
+*Related projects*
+* [Bedside Pharmacy Mobile App]()
+
+
+**Advertising** (2016~2017)
+
+*Internship*
+* **Account Executive Intern**, McCANN, McCANN Health. Mentored by Verena Lam.
+
+*Related projects*
+
+
