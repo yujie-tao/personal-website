@@ -9,9 +9,9 @@ layout: default
 Hi! I am a senior year student of B.S. Computer Science and B.A. Media and Journalism at the University of North Carolina at Chapel Hill.
 
 
-I am currently an undergraduate research assistant at [UNC Graphics and Virtual Reality Group](http://telepresence.web.unc.edu), advised by Professor [Henry Fuchs](http://henryfuchs.web.unc.edu). I didn't fully started my research journey until my senior year. Before diving into academic research, I had experience working in both product management and advertising.
+I am currently an undergraduate research assistant at [UNC Graphics and Virtual Reality Group](http://telepresence.web.unc.edu), advised by Professor [Henry Fuchs](http://henryfuchs.web.unc.edu). I didn't fully start my research journey until my senior year. Before diving into academic research, I had experience working in both product management and advertising.
 
-[CV]() / [Email]() / [Github](https://github.com/yujie-tao)
+[CV](https://yujietao.me/files/Yujie_Tao_CV.pdf) / [Email](mailto:yujiet@live.unc.educ) / [Github](https://github.com/yujie-tao)
 
 ## Research Interest
 
@@ -30,7 +30,7 @@ In my spare time, I work on fun projects to try out new things.
 I always aspire to explore interaction beyond keyboards and touch. The advances in Computer Vision allows interaction system to be recognization based. Building upon a hand tracking model, I designed and implemented interactions to control a youtube video with hand gestures.
 
 <img class="" style="width: 250px;" src="touchless-ui.gif">
-<img class="" style="width: 250px;" src="touchless-ui.gif">
+<img class="" style="width: 250px;" src="touchless-ui2.gif">
 
 
 ## Prior to Resaerch
@@ -46,9 +46,9 @@ All past experience contribute to who I am today. Both product management and ad
 * **Program Manager Intern**, Microsoft, Bing News. Mentored by Chen Liao.
 
 *Selected Projects*
-* [Bedside Pharmacy Mobile App]() -- drug reference app for trauma doctors to make medical decisions in acute situations.
-* [Sublet My Room]() -- online platform to make student sublet easier.
-* [iBallot]() -- voting app to improve turn out rate of young voters in local elections.
+* [Bedside Pharmacy Mobile App](https://github.com/kylefeng28/bedside-pharmacy) -- drug reference app for trauma doctors to make medical decisions in acute situations.
+* [Sublet My Room](http://www.subletmyroom.com/hello/) -- online platform to make student sublet easier.
+* [iBallot](https://yujietao.me/files/iBallot_Final_Report.pdf) -- voting app to improve turn out rate of young voters in local elections.
 
 
 **Advertising** (2016~2017)
@@ -57,7 +57,7 @@ All past experience contribute to who I am today. Both product management and ad
 * **Account Executive Intern**, McCANN, McCANN Health. Mentored by Verena Lam.
 
 *Selected projects*
-* [Brainbuild Advertising Research Report]() -- qualitative and quantitative research to identify target audiences for a mobile fitness startup in Bay Area.
-* [Microsoft Market Report]() -- scenario planning and performance dashboard to understand competitors, consumers and market potential for new products.
-* [Seal the Seasons Holiday Campaign]() -- Holiday campaigns for a local frozen food startup in North Carolina to engage with target customers.
+* [Brainbuild Quantative Research Report](https://yujietao.me/files/Brainbuild_Quantative_Research_Report.pdf) -- qualitative and quantitative research to identify target audiences for a mobile fitness startup in Bay Area.
+* [Microsoft Market Report](https://yujietao.me/files/Microsoft_Industry_Report.pdf) -- scenario planning and performance dashboard to understand competitors, consumers and market potential for new products.
+* [Seal the Seasons Holiday Campaign](https://yujietao.me/files/Seal_The_Seasons_Pitch.pdf) -- holiday campaigns for a local frozen food startup in North Carolina to engage with target customers.
 
