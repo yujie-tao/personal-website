@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="Yujie_Tao.jpg">
+<img class="profile-picture" src="./img/me.jpg">
 
 Hi! I am a senior year student of B.S. Computer Science and B.A. Media and Journalism at the University of North Carolina at Chapel Hill.
 
@@ -27,10 +27,10 @@ In my spare time, I work on fun projects to try out new things.
 
 [Touchless UI](https://github.com/yujie-tao/touchless-ui) (September 2019)
 
-I always aspire to explore interaction beyond keyboards and touch. The advances in Computer Vision allows interaction system to be recognization based. Building upon a hand tracking model, I designed and implemented interactions to control a youtube video with hand gestures.
+I always aspire to explore interaction beyond keyboards and touch. The advances in Computer Vision allow the interaction system to be recognization based. Building upon a hand tracking model, I designed and implemented interactions to control a youtube video with hand gestures.
 
-<img class="" style="width: 250px;" src="touchless-ui.gif">
-<img class="" style="width: 250px;" src="touchless-ui2.gif">
+<img class="" style="width: 250px;" src="./img/touchless-ui.gif">
+<img class="" style="width: 250px;" src="./img/touchless-ui2.gif">
 
 
 ## Prior to Resaerch
