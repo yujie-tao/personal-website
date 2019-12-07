@@ -1,7 +1,8 @@
 ---
-title: About Me
+title: About
+subtitle: 
 description: 
-subtitle:
+featured_image: 
 ---
 
 

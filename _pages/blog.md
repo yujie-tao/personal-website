@@ -1,5 +1,6 @@
 ---
 title: Blog
 subtitle: Coming Soon.
-description: 
+description: Let the Adventure Begin.
+featured_image: ""
 ---

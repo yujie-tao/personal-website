@@ -13,9 +13,9 @@ menu_settings:
     - title: 'Project'
       url: '/'
     - title: 'Blog'
-      url: '/blog'
+      url: '/blog.html'
     - title: 'About'
-      url: '/about'
+      url: '/about.html'
 
 grid_settings:
   grid_spacing: 10

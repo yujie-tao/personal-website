@@ -1,6 +1,6 @@
 site: Yujie Tao
 
-url: 
+url: "https://yujietao.me"
 baseurl: 
 
 collections:
@@ -9,10 +9,10 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /project/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /blog/:slug
 
 defaults:
   -
