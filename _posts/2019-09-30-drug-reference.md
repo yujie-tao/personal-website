@@ -13,7 +13,9 @@ The Surgical Intensive Care Unit (SICU) is where physicians are required to make
  
 
 ## Team
-This project was a collaboration between four undergraduate students from UNC Computer Science with two medical professionals from UNC Bedside Pocket SICU Pharmacy. 
+This project was a collaboration between four undergraduate students from UNC Computer Science with two medical professionals from UNC Bedside Pocket SICU Pharmacy. My collaborators include Kyle Feng, Yuxuan Liu, Therese Mendoza, Dr. John Yoon and Dr.Oyshik Banerjee. We are also mentored by Prof David Stotts and Jeff Terrell.
+
+
 
 As a member of the engineering team, I led the UI/UX design and front-end development of this mobile app.
 
@@ -30,7 +32,7 @@ I designed the user interface in Adobe XD. With a focus was on "simple, quick, a
 
 ## Development
 
-This app has end users from both front-end and administrator side.
+This app has end-users from both front-end and administrator side.
 
 I developed in React Native and Typescript to handle mobile UI, Redux to handle state management, and a React router to handle switching from one screen to another. Mobile users for our application interacted with a front-end app available to both Android and iOS. 
 

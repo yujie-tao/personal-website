@@ -23,7 +23,7 @@ My current research project is **gaze tracking for near-eye display**, in which 
 
 Before diving into academic research, I had been working in product management and marketing. Those experiences led me with multidisciplinary perspectives and skillsets. 
 
-[Product]()
+### Product
 
 
 * Program Manager Intern, Microsoft, M365 Security. 
@@ -31,8 +31,12 @@ Before diving into academic research, I had been working in product management a
 * Founder, UNC Product Management Club. 
 
 
-
-[Marketing]()
+### Marketing
 * Account Executive Intern, McCann, McCann Health.
 * Vice President of Marketing, Pearl Hacks.
 * Marketing Committee, Duke-UNC China Leadership Summit.
+
+
+
+
+[My CV](https://yujietao.me/files/Yujie_Tao_CV.pdf)
