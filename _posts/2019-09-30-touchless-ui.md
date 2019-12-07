@@ -1,6 +1,7 @@
 ---
 title: 'Touchless UI'
-date: September, 2019
+date: October 2019
+date_display: "October 2019"
 featured_image: '/images/touchless-ui-2.gif'
 excerpt: Touchless UI is a hand gesture-based user interaction program. It allows the user to interact with youtube videos by using intuitive hand gestures. At the proof of concept stage, this program currently supports interactions to play and stop a video. 
 ---

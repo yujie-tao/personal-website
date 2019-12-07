@@ -1,6 +1,7 @@
 ---
 title: 'Brainbuild AD PR Research'
 date: January 2018
+date_display: "January 2018"
 featured_image: '/images/brainbuild.jpg'
 excerpt: The primary goal of this research is to find the target public(s) for Brainbuild, a health and fitness startup in Bay Area, and discovering how to best appeal to them specifically in regards to branding, advertising, and messaging.
 ---

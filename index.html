@@ -1,7 +1,7 @@
 ---
 layout: default
-title: A super simple blogging theme for Jekyll.
-description: Simples is a super simple blogging theme for Jekyll.
+title: Let the Adventure Begin.
+description: Yujie
 featured_image: /images/social.jpg
 ---
 
@@ -15,7 +15,7 @@ featured_image: /images/social.jpg
 
 			<div class="listing-post__header">
 				<h2 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-				<p class="listing-post__subtitle">{{ post.date | date_to_long_string }}</p>
+				<p class="subtitle">{{ post.date_display }}</p>
 			</div>
 
 			{% if post.featured_image %}
