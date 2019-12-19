@@ -26,6 +26,6 @@ Touchless UI is built on a customized version of mediapipe, and the interaction 
 ## Learnings
 One important learning I gained in this project was that, hand gesture, like any other modality, has its own limitation and is not universally appropriate. While I was developing and testing the program in a Starbucks, it was an awkward experience sitting in front of a stranger and puting hand up and down to control a computer.  
 
-While gesture-based interaction is intuitive and native to human behavior, it is more suitable for private or semi-private settings. 
+While gesture-based interaction is intuitive and native to human behavior, it is more suitable for private or semi-private settings. Future interaction systems need to be multi-modal and dynamic based on context environments. 
 
 [Github Repo](https://github.com/yujie-tao/touchless-ui)

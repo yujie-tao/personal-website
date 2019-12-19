@@ -14,7 +14,7 @@ The Surgical Intensive Care Unit (SICU) is where physicians are required to make
  
 
 ## Team
-This project was a collaboration between four undergraduate students from UNC Computer Science with two medical professionals from UNC Bedside Pocket SICU Pharmacy. My collaborators include Kyle Feng, Yuxuan Liu, Therese Mendoza, Dr. John Yoon and Dr.Oyshik Banerjee. We are also mentored by Prof David Stotts and Jeff Terrell.
+This project was a collaboration between four undergraduate students from UNC Computer Science with two medical professionals from UNC Bedside Pocket SICU Pharmacy. My collaborators were Kyle Feng, Yuxuan Liu, Therese Mendoza, Dr. John Yoon and Dr.Oyshik Banerjee. We were also mentored by Prof David Stotts and Jeff Terrell.
 
 
 

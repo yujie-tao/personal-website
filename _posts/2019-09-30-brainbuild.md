@@ -13,7 +13,7 @@ excerpt: The primary goal of this research is to find the target public(s) for B
 The primary goal of this research is to find the target public(s) for Brainbuild and discovering how to best appeal to them specifically in regards to branding, advertising, and messaging. Brainbuild app improves users’ health by automatically syncing with users’ schedules to optimize the timing of their meals, snacks, hydration, and sleep each day. 
 
 ## Team
-I worked on this project with my classmates in Hussman School of Journalism and Media, mentored by Prof. Adam Saffer. My collaborators include Katie Forbidussi, Kelly Hsu, Laeral Knutson, Elizabeth Pollard, and Joe Wedra.
+I worked on this project with my classmates in Hussman School of Journalism and Media, mentored by Prof. Adam Saffer. My collaborators were Katie Forbidussi, Kelly Hsu, Laeral Knutson, Elizabeth Pollard, and Joe Wedra.
 
 
 ## Research Mechanism
