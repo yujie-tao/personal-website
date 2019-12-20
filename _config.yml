@@ -10,7 +10,7 @@ collections:
   posts:
     output: true
     permalink: /project/:slug.html
-  projects:
+  blogs:
     output: true
     permalink: /blog/:slug.html
 
@@ -35,7 +35,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "projects"
+      type: "blogs"
     values:
       layout: "project"
 
