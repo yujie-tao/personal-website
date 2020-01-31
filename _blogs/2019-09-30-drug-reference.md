@@ -56,6 +56,8 @@ As of reputation feedback, Medium also adopts asymmetric social networking (foll
 
 Reciprocity comes from the quality of content. Writers are also readers; they want to learn about other new knowledge when they share theirs. Medium satisfies this need by manually reviewing every new article within 24 hours of publishing and distributing good ones to featured columns to ensure quality. 
 
+
+## Conclusion
 Social media is never a replacement for real-world communication. Without social media, we will naturally seek for other channels to fulfills those needs as mentioned in this article. However, social media is an enhancement, an extension of communication that allows us to increase the depth, breadth, and efficiency of mutual information exchange. Understanding the nature of it is an initiative from us as users to choose the right platform that fits our need rather than be indulged in social media's addictive design mentioned by Dr. Cal Newport.
 
 
