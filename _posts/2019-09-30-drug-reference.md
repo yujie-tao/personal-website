@@ -3,7 +3,7 @@ title: 'Drug Reference Mobile App'
 date: May 2019
 date_display: "May 2019"
 featured_image: '/images/drug-reference.jpg'
-excerpt: The goal of this project is to create a drug reference mobile app targeted at SICU physicians. It provides intuitive and simple navigation for physicians to look up drugs and make immediate life-saving decisions.
+excerpt: <!-- The goal of this project is to create a drug reference mobile app targeted at SICU physicians. It provides intuitive and simple navigation for physicians to look up drugs and make immediate life-saving decisions. -->
 ---
 
 <!-- ![](/images/touchless-ui.gif) -->

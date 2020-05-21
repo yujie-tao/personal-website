@@ -101,7 +101,7 @@ font_settings:
   h2:
     small_size: 27
     medium_size: 38
-    large_size: 38
+    large_size: 18
     weight: 600
     letter_spacing: -0.02
     line_height: 1.2

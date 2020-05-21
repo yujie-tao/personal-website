@@ -5,7 +5,10 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing-post {
-	margin-top: 50px;
+	margin-top: 10px;
+	width: 30%;
+	display: inline-block;
+
 
 	@include mq(tabletp) {
 		margin-top: 80px;

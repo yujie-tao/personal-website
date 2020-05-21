@@ -3,7 +3,7 @@ title: 'Future News Story'
 date: July 2018
 date_display: 'July 2018'
 featured_image: '/images/future-news-story.jpg'
-excerpt: This is a hackathon project I worked on at Microsoft OneWeek Hackathon during my internship in summer 2018. As a program manager intern at Bing News team, I collaborated with four engineering interns. This prototype shows how we imagine the future news reading experience would be. 
+excerpt: <!-- This is a hackathon project I worked on at Microsoft OneWeek Hackathon during my internship in summer 2018. As a program manager intern at Bing News team, I collaborated with four engineering interns. This prototype shows how we imagine the future news reading experience would be.  -->
 ---
 ![](/images/future-news-story-2.jpg)
 
