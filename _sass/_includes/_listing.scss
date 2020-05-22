@@ -6,20 +6,29 @@
 
 .listing-post {
 	margin-top: 10px;
-	width: 30%;
-	display: inline-block;
-
+	width:80%;
+	margin: auto;
 
 	@include mq(tabletp) {
-		margin-top: 80px;
+		width: 45%;
+		margin-left:2%;
+		margin-right:2%;
+		display: inline-block;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 90px;
+		width: 45%;
+		margin-left:2%;
+		margin-right:2;
+		display: inline-block;
 	}
 
 	@include mq(laptop) {
-		margin-top: 120px;
+		width: 30%;
+		margin-left:1.5%;
+		margin-right:1.5%;
+		display: inline-block;
+
 	}
 
 	&:first-child {
@@ -81,6 +90,10 @@
 .listing-post__subtitle {
 	margin-top: 5px;
 	color: $text-light-color;
+}
+
+h6.listing-post__title{
+	margin-top:20px;
 }
 
 .pagination {
