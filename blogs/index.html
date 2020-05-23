@@ -11,11 +11,10 @@ featured_image: /images/social.jpg
 
 		{% for project in site.blogs reversed %}
 
-		<article class="listing-post">
-
+		<article class="listing-post2">
 			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-				<p class="listing-post__subtitle">{{ project.subtitle }}</p>
+				<h3 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+				<!-- <p class="listing-post__subtitle">{{ project.subtitle }}</p> -->
 			</div>
 
 			{% if project.featured_image %}
@@ -24,7 +23,7 @@ featured_image: /images/social.jpg
 
 			<div class="listing-post__content">
 				<p>{{ project.excerpt }}</p>
-				<p><a href="{{ project.url | relative_url }}" class="button">Read More</a>
+				<div><a href="{{ project.url | relative_url }}" class="button">Read More</a></div>
 			</div>
 
 		</article>

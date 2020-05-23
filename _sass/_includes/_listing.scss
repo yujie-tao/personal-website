@@ -87,13 +87,22 @@
 	}
 }
 
+.listing-post__content div{
+	text-align: center;
+	margin-top: 20px;
+}
+
 .listing-post__subtitle {
 	margin-top: 5px;
 	color: $text-light-color;
 }
 
 h6.listing-post__title{
-	margin-top:20px;
+	margin-top: 20px;
+}
+
+h3.listing-post__title{
+	margin-top: 50px;
 }
 
 .pagination {
