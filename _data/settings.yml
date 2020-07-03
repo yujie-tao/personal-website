@@ -12,10 +12,13 @@ menu_settings:
   menu_items:
     - title: 'Project'
       url: '/'
-    - title: 'Blog'
-      url: '/blogs/'
+    # - title: 'Blog'
+    #   url: '/blogs/'
+    - title: 'Initiative'
+      url: '/initiative.html'
     - title: 'About'
       url: '/about.html'
+
 
 grid_settings:
   grid_spacing: 10
@@ -52,7 +55,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/yujie-tao/'
 
 color_settings:
   background_color: '#ffffff'
