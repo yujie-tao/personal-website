@@ -11,7 +11,7 @@ I recently graduated from UNC-Chapel Hill with a double major in Computer Scienc
 
 
 <!-- ## Research -->
-Currently, I a research assistant in [Prof. Pedro Lopes](http://plopes.org)'s Human Computer Integration Lab at UChicago. I was also fortunate to be advised by Prof. Henry Fuchs from UNC Graphics and Virtual Reality Group and Dr. Nataliya Kos'myna from MIT Media Lab.
+Currently, I am a research assistant in [Prof. Pedro Lopes](http://plopes.org)'s Human Computer Integration Lab at UChicago. I was also fortunate to be advised by Prof. Henry Fuchs from UNC Graphics and Virtual Reality Group and Dr. Nataliya Kos'myna from MIT Media Lab.
 
 <!--  I also worked with Dr. Nataliya Kos'myna from MIT Media Lab. During my undergraduate study, I was a research assistant at UNC Graphics and Virtual Reality Group, advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu).  -->
 
