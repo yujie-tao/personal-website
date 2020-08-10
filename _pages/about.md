@@ -17,7 +17,7 @@ Currently, I am a research assistant in [Prof. Pedro Lopes](http://plopes.org)'s
 
 Before jumping into HCI research in my senior year, I worked in product management and marketing. 
 
-<!-- ![](/images/about.jpg) -->
+![](/images/me.jpg)
 
 <!-- ## Product & Marketing
 Beyond research, I have been working in several other verticals through internships and extracurriculars. They lead me to understand how a research idea can evolve into something that people use every day. 

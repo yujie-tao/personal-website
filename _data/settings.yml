@@ -78,7 +78,7 @@ font_settings:
   site_title:
     small_size: 27
     medium_size: 32
-    large_size: 40
+    large_size: 25
     weight: 600
     letter_spacing: 0
   site_tagline:
@@ -91,20 +91,20 @@ font_settings:
   menu:
     small_size: 16
     medium_size: 18
-    large_size: 20
+    large_size: 18
     weight: 600
     letter_spacing: 0
   h1:
     small_size: 27
     medium_size: 38
-    large_size: 50
+    large_size: 40
     weight: 600
     letter_spacing: -0.02
     line_height: 1.2
   h2:
     small_size: 27
-    medium_size: 38
-    large_size: 38
+    medium_size: 30
+    large_size: 30
     weight: 600
     letter_spacing: -0.02
     line_height: 1.2
@@ -140,7 +140,7 @@ font_settings:
     small_size: 17
     medium_size: 19
     large_size: 17
-    weight: 400
+    weight: 300
     letter_spacing: 0
     line_height: 1.6
   blockquote:

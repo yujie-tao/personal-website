@@ -97,8 +97,11 @@
     margin-top: 10px;
 
     @include mq(laptop) {
-        margin-top: 15px;
+        margin-top: 5px;
     }
+
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .menu__list {
@@ -106,6 +109,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 90%;
+    float: right;
 }
 
 .menu__list__item {

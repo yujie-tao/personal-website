@@ -3,7 +3,7 @@ title: 'AttentivU'
 date: July 2020
 date_display: "July 2020"
 featured_image: '/images/attentivu.jpg'
-excerpt: <!-- The goal of this project is to create a drug reference mobile app targeted at SICU physicians. It provides intuitive and simple navigation for physicians to look up drugs and make immediate life-saving decisions. -->
+excerpt: EEG wearables for cognitive enhancement. 
 ---
 ![](/images/attentivu-2.jpg)
 
