@@ -1,9 +1,9 @@
 ---
-title: 'Eye Tracking'
+title: 'Eye Tracking [ISMAR 2020]'
 date: May 2020
 date_display: "May 2020"
 featured_image: '/images/eye1.png'
-excerpt: <!-- The goal of this project is to create a drug reference mobile app targeted at SICU physicians. It provides intuitive and simple navigation for physicians to look up drugs and make immediate life-saving decisions. -->
+excerpt: Improve eyetracking accuracy for AR glasses
 ---
 ![](/images/eye2.png)
 

@@ -19,7 +19,7 @@ My effort towards diversity in the tech industry didn't stop at Pearl Hacks. I a
 
 
 ### HCI Research Community
-I got involved in HCI research in my senior year. Since then, I have been trying to contribute the community. I recently helped organize [CHI 2020 Smell, Taste, & Temperature Symposium](http://stt20.plopes.org) as a moderator. 
+I got involved in HCI research in my senior year. Since then, I have been trying to contribute the community. I recently helped organize [CHI 2020 Smell, Taste, & Temperature Symposium](http://stt20.plopes.org) as a moderator. I will also join UbiComp 2020 as a student volunteer.
 
 
 ### Product Community for Undergraduates

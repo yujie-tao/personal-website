@@ -3,7 +3,7 @@ title: 'AttentivU'
 date: July 2020
 date_display: "July 2020"
 featured_image: '/images/attentivu.jpg'
-excerpt: EEG wearables for cognitive enhancement. 
+excerpt: EEG wearable for cognitive enhancement
 ---
 ![](/images/attentivu-2.jpg)
 
