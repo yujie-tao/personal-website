@@ -3,7 +3,7 @@ title: 'Brainbuild AD PR Research'
 date: January 2018
 date_display: "January 2018"
 featured_image: '/images/brainbuild.jpg'
-excerpt: Identify target customers for a fitness startup.
+excerpt: Identify target customers for a fitness startup
 ---
 
 <!-- ![](/images/iballot.jpg) -->

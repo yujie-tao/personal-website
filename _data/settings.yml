@@ -61,8 +61,10 @@ color_settings:
   background_color: '#ffffff'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
+  # text_medium_color: '#6C7A89'
+  text_medium_color: '#212529'
+  # text_light_color: '#ABB7B7'
+  text_light_color: '#8f8f8f'
   accent_color: '#ee983d'
   border_color: '#f7d7b6'
   overlay_background_color: '#161B21'
@@ -97,14 +99,14 @@ font_settings:
   h1:
     small_size: 27
     medium_size: 38
-    large_size: 40
+    large_size: 38
     weight: 600
     letter_spacing: -0.02
     line_height: 1.2
   h2:
     small_size: 27
     medium_size: 30
-    large_size: 30
+    large_size: 25
     weight: 600
     letter_spacing: -0.02
     line_height: 1.2
@@ -131,8 +133,8 @@ font_settings:
     line_height: 1.6
   h6:
     small_size: 17
-    medium_size: 18
-    large_size: 18
+    medium_size: 17
+    large_size: 17
     weight: 400
     letter_spacing: 0
     line_height: 1.6
@@ -140,7 +142,7 @@ font_settings:
     small_size: 17
     medium_size: 17
     large_size: 16
-    weight: 400
+    weight: 300
     letter_spacing: 0
     line_height: 1.6
   blockquote:

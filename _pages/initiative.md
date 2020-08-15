@@ -7,7 +7,7 @@ featured_image:
 
 <!-- ### Underrepresented group in tech -->
 
-Here are some of the initiatives I have engaged in. They are not possible without the awesome people and mentors I have worked with along the way. 
+Here are some of the initiatives I have engaged in. They are not possible without the awesome peers and mentors I worked with along the way. 
 
 ### Diversity in Tech 
 
@@ -18,7 +18,7 @@ I was the VP of Marketing at [Pearl Hacks](https://pearlhacks.com), a hackathon 
 My effort towards diversity in the tech industry didn't stop at Pearl Hacks. I am currently working with my advisor Prof. Pedro Lopes and other lab members in planning a series of events to introduce under-represented students about electronics. 
 
 
-### HCI Research Community
+### Academic Service
 I got involved in HCI research in my senior year. Since then, I have been trying to contribute the community. I recently helped organize [CHI 2020 Smell, Taste, & Temperature Symposium](http://stt20.plopes.org) as a moderator. I will also join UbiComp 2020 as a student volunteer.
 
 

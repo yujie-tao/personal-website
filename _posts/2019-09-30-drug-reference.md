@@ -3,7 +3,7 @@ title: 'Drug Reference Mobile App'
 date: May 2019
 date_display: "May 2019"
 featured_image: '/images/drug-reference.jpg'
-excerpt: For physicians to make life-saving decisions.
+excerpt: For physicians to make life-saving decisions
 
 ---
 

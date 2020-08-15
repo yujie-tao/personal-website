@@ -3,7 +3,7 @@ title: 'Touchless UI'
 date: October 2019
 date_display: "October 2019"
 featured_image: '/images/touchless-ui-2.gif'
-excerpt: Hand gesture-based user interaction program.
+excerpt: Hand gesture-based user interaction program
 ---
 
 ![](/images/touchless-ui.gif)

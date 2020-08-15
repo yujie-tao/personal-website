@@ -7,35 +7,25 @@ featured_image:
 
 
 <!-- ## Bio -->
-I recently graduated from UNC-Chapel Hill with a double major in Computer Science and Journalism. Coming from a cross-disciplinary background, I enjoy exploring how technology can empower people unobtrusively. My interests lie in wearables and personal sensing. 
+
+<!-- ![](/images/about.jpg) -->
+
+<div class="row">
+<div class="col-lg-4 col-sm-12">
+<img src="/images/about.jpg">
+</div>
+
+<div class="col-lg-8 col-sm-12 about">
+<p>I recently graduated from UNC-Chapel Hill with a double major in Computer Science and Journalism. Coming from a cross-disciplinary background, I enjoy exploring how technology can empower people unobtrusively. My interests lie in wearables, haptics and personal sensing.</p>
 
 
 <!-- ## Research -->
-Currently, I am a research assistant in [Prof. Pedro Lopes](http://plopes.org)'s Human Computer Integration Lab at UChicago. I was also fortunate to be advised by Prof. Henry Fuchs from UNC Graphics and Virtual Reality Group and Dr. Nataliya Kos'myna from MIT Media Lab.
+<p>Currently, I am a research assistant in Human Computer Integration Lab at UChicago, advised by <a href="http://plopes.org">Prof. Pedro Lopes</a>. I was also fortunate to work with Prof. Henry Fuchs from UNC Graphics and Virtual Reality Group and Dr. Nataliya Kos'myna from MIT Media Lab.</p>
 
-<!--  I also worked with Dr. Nataliya Kos'myna from MIT Media Lab. During my undergraduate study, I was a research assistant at UNC Graphics and Virtual Reality Group, advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu).  -->
+<p>Before jumping into HCI research in my senior year, I worked in product management and marketing.</p>
 
-Before jumping into HCI research in my senior year, I worked in product management and marketing. 
+<p><a href="https://yujietao.me/files/Yujie_Tao_Resume.pdf">My Resume</a></p>
 
-![](/images/me.jpg)
+</div>
 
-<!-- ## Product & Marketing
-Beyond research, I have been working in several other verticals through internships and extracurriculars. They lead me to understand how a research idea can evolve into something that people use every day. 
-
-### Product
-
-
-* Program Manager Intern, Microsoft, M365 Security. 
-* Program Manager Intern, Microsoft, Bing News.
-* Founder, UNC Product Management Club. 
-
-
-### Marketing
-* Account Executive Intern, McCann, McCann Health.
-* Vice President of Marketing, Pearl Hacks.
-* Marketing Committee, Duke-UNC China Leadership Summit.
-
- -->
-
-
-[My Resume](https://yujietao.me/files/Yujie_Tao_Resume.pdf)
+</div>
