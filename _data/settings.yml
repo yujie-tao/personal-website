@@ -10,14 +10,14 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Project'
-      url: '/'
-    # - title: 'Blog'
-    #   url: '/blogs/'
-    - title: 'Initiative'
-      url: '/initiative.html'
     - title: 'About'
       url: '/about.html'
+    # - title: 'Blog'
+    #   url: '/blogs/'
+    - title: 'Project'
+      url: '/'
+    - title: 'Initiative'
+      url: '/initiative.html'
 
 
 grid_settings:
