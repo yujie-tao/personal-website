@@ -15,7 +15,7 @@ Here are some of the initiatives I have engaged in. They are not possible withou
 
 I was the VP of Marketing at [Pearl Hacks](https://pearlhacks.com), a hackathon for female and non-binary students to explore technology. During a weekend, we provide workshops for beginners to learn about different CS topics and create a platform for them to launch their first projects. In Pearl Hacks 2020, we supported 350+ hackers with 19 workshops, 128 volunteers, 107 mentors, and 38 sponsor companies. Our participants delivered over 70 projects to solve real-world problems.
 
-My effort towards diversity in the tech industry didn't stop at Pearl Hacks. I am currently working with my advisor Prof. Pedro Lopes and other lab members in planning a series of events to introduce under-represented students about electronics. 
+My effort towards diversity in the tech industry didn't stop at Pearl Hacks. I am currently working with my advisor Prof. Pedro Lopes and other lab members in planning a series of events to introduce under-represented students about electronics. Please join us in our upcoming event [Ada Lovelace Week](https://ada2020.plopes.org/) !
 
 
 ### Academic Service
